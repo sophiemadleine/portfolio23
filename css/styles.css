@@ -1,0 +1,719 @@
+/*-------------- classic styles --------------*/
+
+/*------- text styles -------*/
+.body {
+    font-family: 'Lato';
+    color: rgb(1, 8, 15);
+    transition: 0.4s;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #FAFBFC;
+    gap: 4vw;
+    width: 100%;
+  }
+  
+  /*- T1 Header Name -*/
+  .body t1 {
+    font-size: 8vw;
+    font-weight: bold;
+    font-kerning: 4px;
+  }
+  
+  /*- T2 Footer -*/
+  .body t2 {
+    font-size: 3vw;
+    font-weight: bolder;
+    font-kerning: 1px;
+  }
+  
+  @media (max-width: 450px) {
+    .body t2 {
+      font-size: 8vw;
+      text-align: left;
+    }
+  }
+  
+  
+  @media (max-width: 450px) {
+    .footer t2 {
+      font-size: 8vw;
+      text-align: center;
+    }
+  }
+  
+  /*- H1 Section Title -*/
+  .body h1 {
+    font-size: 5vw;
+    font-weight: bolder;
+    color: #FB05C5;
+    margin: 0;
+  }
+  
+  @media (max-width: 800px) {
+    .body h1 {
+      font-size: 10vw;
+  
+    }
+  }
+  
+  /*- H2 Title Project Box -*/
+  .body h2 {
+    font-weight: 700;
+    font-size: 1.8vw;
+    margin: 0;
+  }
+  
+  @media (max-width: 800px) {
+    .body h2 {
+      font-size: 6vw;
+    }
+  }
+  
+  /*- H3 Project Head -*/
+  .body h3 {
+    font-weight: bolder;
+    font-size: 3.2vw;
+    padding-bottom: 1vw;
+    margin-top: 1vw;
+  }
+  
+  @media (max-width: 800px) {
+    .body h3 {
+      font-size: 8vw;
+      margin-block-end: 0vw;
+  
+    }
+  }
+  
+  /*- CTA1 Link About Me -*/
+  .body cta1 {
+    font-weight: 500;
+    font-size: 1.2vw;
+    font-kerning: 1px;
+  }
+  
+  @media (max-width: 800px) {
+    .body cta1 {
+      font-size: 2vw;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .body cta1 {
+      font-size: 3vw;
+    }
+  }
+  
+  /*- CTA2 Link Project Page -*/
+  .body cta2 {
+    font-weight: 500;
+    font-size: 1vw;
+    vertical-align: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .body cta2 {
+      font-size: 1.2vw;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .body cta2 {
+      font-size: 2.8vw;
+    }
+  }
+  
+  /*- L1 Label Project -*/
+  .body l1 {
+    font-weight: 400;
+    font-size: 0.8vw;
+  }
+  
+  @media (max-width: 1200px) {
+    .body l1 {
+      font-size: 1.2vw;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .body l1 {
+      font-size: 3vw;
+    }
+  }
+  
+  /*- P1 Header Hey -*/
+  .body p1 {
+    font-weight: 500;
+    font-size: 4vw;
+    font-kerning: 2px;
+  }
+  
+  /*- P2 Text -*/
+  .body p2 {
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 2vw;
+  }
+  
+  @media (max-width: 1200px) {
+    .body p2 {
+      font-size: 1.6vw;
+      line-height: 3vw;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .body p2 {
+      font-size: 4vw;
+      line-height: 6vw;
+    }
+  }
+  
+  /*- P3 Header Profession / Footer Addition -*/
+  .body p3 {
+    font-weight: 400;
+    font-size: 1.4vw;
+    font-kerning: 1px;
+  }
+  
+  @media (max-width: 800px) {
+    .body p3 {
+      font-size: 2.2vw;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .body p3 {
+      font-size: 4vw;
+    }
+  }
+  
+  /*------- page hero -------*/
+  
+  
+  .hero {
+    background-color: #EDF1F5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .logoHero {
+    max-height: 6vw;
+    position: absolute;
+    left: 6vw;
+    top: 6vw;
+  }
+  
+  @media (max-width: 600px) {
+    .logoHero {
+      max-height: 16vw;
+      top: 10vw;
+    }
+  }
+  
+  
+  .scroll {
+    max-height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/hero/wave.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+  }
+  
+  @media (max-width: 800px) {
+    .scroll {
+      height: 16vh;
+  
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .scroll {
+      height: 12vh;
+  
+    }
+  }
+  
+  .scrollArrow {
+    height: 8vh;
+    padding: 4vw;
+  }
+  
+  @media (max-width: 800px) {
+    .scrollArrow {
+      height: 6vh;
+    }
+  }
+  
+  
+  /*------- call to action -------*/
+  
+  .ctaLL {
+    margin-top: 4vw;
+    background: #FAFBFC;
+    color: #01080F;
+    border-radius: 8vw;
+    padding: 2vw 4vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    width: auto;
+    box-shadow: 4px 4px 0 0 #EDF1F5, 6px 6px 0 0 #FB05C5;
+  }
+  
+  .ctaLL:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 0 0 #9D05FB;
+  }
+  
+  @media (max-width: 800px) {
+    .ctaLL {
+      padding: 4vw 8vw;
+    }
+  }
+  
+  .ctaLD {
+    margin-top: 4vw;
+    background: #FAFBFC;
+    color: #01080F;
+    border-radius: 8vw;
+    padding: 2vw 4vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    width: auto;
+    box-shadow: 4px 4px 0 0 #26394D, 6px 6px 0 0 #FB05C5;
+  }
+  
+  .ctaLD:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 0 0 #9D05FB;
+  }
+  
+  @media (max-width: 800px) {
+    .ctaLD {
+      padding: 4vw 8vw;
+    }
+  }
+  
+  .ctaSmall {
+    display: flex;
+    background: #FB05C5;
+    color: #EDF1F5;
+    border-radius: 8vw;
+    padding: 1vw 3vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    width: auto;
+    box-shadow: 4px 4px 0 0 #EDF1F5, 6px 6px 0 0 #01080F;
+    align-self: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .ctaSmall:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 0 0 #01080F;
+    background: #9D05FB;
+  }
+  
+  @media (max-width: 800px) {
+    .ctaSmall {
+      padding: 4vw 8vw;
+    }
+  }
+  
+  /*------- Project Grids -------*/
+  
+  .otherPj {
+    display: flex;
+    flex-direction: column;
+    padding: 0 18vw 0 18vw;
+    gap: 4vw;
+  }
+  
+  @media (max-width: 800px) {
+    .otherPj {
+      padding: 4vw 6vw;
+    }
+  }
+  
+  .divide {
+    background-image: url('../img/sketches/bottomDivider.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 10vh;
+  }
+  
+  @media (max-width: 800px) {
+    .divide {
+  width: 60vw;  
+  height: 4vh;}
+  }
+  
+  .pjTwo {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 800px) {
+    .pjTwo {
+      flex-direction: column;
+    }
+  }
+  
+  .pjBox {
+    background-color: #EDF1F5;
+    border-radius: 1vw;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  @media (max-width: 800px) {
+    .pjBox {
+      border-radius: 4vw;
+      transition: max-height 0.3s;
+  
+    }
+  }
+  
+  .XS {
+    max-width: 12vw;
+    width: 12vw;
+    height: 16vw;
+  }
+  
+  @media (max-width: 800px) {
+    .XS {
+      max-width: 36vw;
+      width: 36vw;
+      height: 60vw
+    }
+  }
+  
+  .S {
+    max-width: 26vw;
+    width: 26vw;
+    height: 16vw;
+  }
+  
+  @media (max-width: 800px) {
+    .S {
+      max-width: 80vw;
+      width: 80vw;
+      height: 40vw
+    }
+  }
+  
+  .M {
+    max-width: 26vw;
+    width: 26vw;
+    height: 20vw;
+  }
+  
+  @media (max-width: 800px) {
+    .M {
+      max-width: 80vw;
+      width: 80vw;
+      height: 60vw
+    }
+  }
+  
+  .L {
+    max-width: 26vw;
+    width: 26vw;
+    height: 26vw;
+  }
+  
+  @media (max-width: 800px) {
+    .L {
+      max-width: 80vw;
+      width: 80vw;
+      height: 80vw
+    }
+  }
+  
+  .pjOverlay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2vw;
+    background-color: #edf1f5c8;
+    border-radius: 0 0 1vw 1vw;
+    width: 100%;
+    max-height: 20vh;
+    height: auto;
+    transition: max-height 0.3s linear;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 800px) {
+    .pjOverlay {
+      border-radius: 0 0 4vw 4vw;
+      padding: 6vw;
+    }
+  }
+  
+  .pjBox:hover .pjOverlay {
+    max-height: 200vh;
+    height: 100%;
+    border-radius: 1vw;
+    stroke: #01080F;
+    stroke-width: 1px 1px 4px 4px;
+    gap: 2vw;
+    align-items: flex-start;
+  }
+  
+  @media (max-width: 800px) {
+    .pjBox:hover .pjOverlay {
+      border-radius: 4vw;
+      gap: 4vw;
+  
+    }
+  }
+  
+  .invisible {
+    display: none;
+    transition: 0.2s;
+  }
+  
+  .pjBox:hover .invisible {
+    display: block;
+  }
+  
+  .pjLabel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  
+  /*------- sketch styles -------*/
+  
+  .divider {
+    position: relative;
+    max-width: 12vw;
+    align-self: center;
+  }
+  
+  @media (max-width: 450px) {
+    .divider {
+  max-width: 24vw;  }
+  }
+  
+  .video {
+    background-image: url('../img/sketches/vidFrame.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 6vw 6vw 6vw 6vw;
+    margin: 0 12vw 0 12vw;
+    width: auto;
+  }
+  
+  @media (max-width: 450px) {
+    .video {
+      background-image: url('../img/sketches/vidFrameMobile.png');
+    }
+  }
+  
+  .star {
+    position: relative;
+    max-width: 4vw;
+    align-self: center;
+  }
+  
+  @media (max-width: 450px) {
+    .star {
+  max-width: 12vw;  }
+  }
+  
+  .lifeline {
+    position: relative;
+    max-width: 100%;
+    align-self: center;
+  }
+  
+  @media (max-width: 450px) {
+    .lifeline {
+  max-width: 10%;
+    }
+  }
+  
+  /*------- footer styles -------*/
+  
+  .footer {
+    display: flex;
+    align-items: flex-end;
+    width: auto;
+    background-color: #EDF1F5;
+    background-image: url("../img/bgFooter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-y: 0px;
+    transition: 0.2s;
+    height: auto;
+    color: #EDF1F5;
+    position: relative;
+  }
+  
+  
+  .backgroundFoot {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vw;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    margin-bottom: 4vw;
+    width: 100%;
+  }
+  
+  @media (max-width: 800px) {
+    .content {
+      margin-top: 32vw;
+    }
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 6vw;
+  }
+  
+  @media (max-width: 450px) {
+    .top {
+      flex-direction: column-reverse;
+      align-items: center;
+  
+    }
+  }
+  
+  .footer .top img {
+    width: 20vw;
+    height: 100%;
+  }
+  
+  @media (max-width: 450px) {
+    .footer .top img {
+      max-width: 40vw;
+      width: 40vw;
+      align-self: flex-end;
+      margin-top: -10vw;
+    }
+  }
+  
+  .invitation {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    position: relative;
+    align-items: flex-start;
+  }
+  
+  @media (max-width: 450px) {
+    .invitation {
+      align-items: center;
+      gap: 6vw;
+    }
+  }
+  
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8vw;
+  }
+  
+  @media (max-width: 600px) {
+    .bottom {
+      flex-direction: column;
+      gap: 8vw;
+    }
+  }
+  
+  .legals {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+  }
+  
+  @media (max-width: 600px) {
+    .legals {
+      flex-direction: column;
+    }
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+    .socials {
+      gap: 8vw;
+    }
+  }
+  
+  .bottom img {
+    max-width: 3vw;
+    max-height: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .bottom img {
+      max-width: 8vw;
+    }
+  }
+  
+  
+  /*- Legal Links -*/
+  .footer a {
+    font-weight: 400;
+    font-size: 0.8vw;
+    font-kerning: 1px;
+    font-family: 'Lato';
+    color: #EDF1F5;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    .footer a {
+      font-size: 3vw;
+      text-align: center;
+      margin-top: 2vw;
+    }
+  }

@@ -1,0 +1,19 @@
+.heroImprint {
+    height: auto;
+}
+
+.imprintContent {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    margin-top: 20vh;
+    padding: 0 18vw 0 18vw;
+
+}
+
+.imprintText {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+

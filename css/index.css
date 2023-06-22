@@ -1,0 +1,170 @@
+/*------- page hero -------*/
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 6vw;
+    width: 200vh;
+}
+
+@media (max-width: 800px) {
+    .presentation {
+        gap: 10vw;
+    }
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-height: 20vh;
+    max-height: 80vh;
+}
+
+@media (max-width: 800px) {
+    .intro {
+        gap: 6vw;
+        max-height: 70vh;
+    }
+}
+
+.hey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.threeD {
+    position: relative;
+    max-height: 15vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+@media (max-width: 800px) {
+    .threeD {
+        max-height: 20vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .threeD {
+        max-height: 20vh;
+    }
+}
+
+.sophie {
+    margin-top: -1.4vw;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    position: relative;
+    top: -2.5vw;
+    z-index: 0;
+}
+
+@media (max-width: 450px) {
+    .sophie {
+        display: grid;
+        justify-content: space-between;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: -4vw;
+    }
+}
+
+.sophie .letters {
+    max-height: 8vw;
+    width: auto;
+}
+
+@media (max-width: 800px) {
+    .sophie .letters {
+        max-height: 12vw;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .sophie .letters {
+        max-height: 20vw;
+
+    }
+}
+
+/*------- project grid -------*/
+
+.pjGrid {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+@media (max-width: 800px) {
+    .pjGrid {
+        flex-direction: column;
+        align-items: center;
+        gap: 6vw;
+    }
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+@media (max-width: 800px) {
+    .left {
+        gap: 6vw;
+    }
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+
+}
+
+@media (max-width: 800px) {
+    .right {
+        gap: 6vw;
+    }
+}
+
+.pjDouble {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .pjDouble {
+        gap: 6vw;
+    }
+}
+
+.gridTitle {
+    display: flex;
+    flex-direction: column;
+    max-width: 26vw;
+    max-height: 16vw;
+}
+
+@media (max-width: 800px) {
+    .gridTitle {
+        max-width: 80vw;
+        max-height: 30vw;
+    }
+}
