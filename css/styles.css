@@ -358,7 +358,7 @@
     background-image: url('../img/sketches/bottomDivider.png');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 20vw;
+    width: 60%;
     height: 10vh;
   }
   
@@ -512,7 +512,7 @@
   
   .divider {
     position: relative;
-    max-width: 12vw;
+    max-width: 20%;
     align-self: center;
   }
   
@@ -539,7 +539,7 @@
   
   .star {
     position: relative;
-    max-width: 4vw;
+    max-width: 5%;
     align-self: center;
   }
   
