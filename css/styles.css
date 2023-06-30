@@ -359,7 +359,7 @@
 @media (max-width: 800px) {
   .divide {
     background-image: url('../img/sketches/divider.png');
-    width: 60%;
+    width: 40%;
     height: 4vh;
   }
 }
