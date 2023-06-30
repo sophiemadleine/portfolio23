@@ -2,7 +2,7 @@
 
 /*------- text styles -------*/
 .body {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: rgb(1, 8, 15);
     transition: 0.4s;
     /*min-height: 100vh;*/
@@ -14,17 +14,10 @@
     width: 100%;
   }
   
-  /*- T1 Header Name -*/
-  .body t1 {
-    font-size: 8vw;
-    font-weight: bold;
-    font-kerning: 4px;
-  }
-  
   /*- T2 Footer -*/
   .body t2 {
     font-size: 3vw;
-    font-weight: bolder;
+    font-weight: 900;
     font-kerning: 1px;
   }
   
@@ -46,7 +39,7 @@
   /*- H1 Section Title -*/
   .body h1 {
     font-size: 5vw;
-    font-weight: bolder;
+    font-weight: 900;
     color: #FB05C5;
     margin: 0;
   }
@@ -73,7 +66,7 @@
   
   /*- H3 Project Head -*/
   .body h3 {
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 3.2vw;
     padding-bottom: 1vw;
     margin-top: 1vw;
@@ -89,7 +82,7 @@
   
   /*- CTA1 Link About Me -*/
   .body cta1 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.2vw;
     font-kerning: 1px;
   }
@@ -108,7 +101,7 @@
   
   /*- CTA2 Link Project Page -*/
   .body cta2 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1vw;
     vertical-align: center;
   }
@@ -145,7 +138,7 @@
   
   /*- P1 Header Hey -*/
   .body p1 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 4vw;
     font-kerning: 2px;
   }
