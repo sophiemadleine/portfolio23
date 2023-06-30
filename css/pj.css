@@ -19,6 +19,7 @@
 .pjKey {
     height: 50vh;
     width: 100%;
+    min-height: 20vh;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center center;
