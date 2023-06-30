@@ -66,6 +66,7 @@
     .topLabel {
         padding-top: 4vw;
         max-width: 60vw;
+        background-size: 50%;
     }
 }
 
