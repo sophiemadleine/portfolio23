@@ -28,6 +28,7 @@
 @media (max-width: 800px) {
     .pjKey {
         background-position: center;
+        height: 40vh;
     }
 }
 
