@@ -516,7 +516,7 @@
 
 @media (max-width: 600px) {
   .divider {
-    max-width: 40%;
+    max-width: 60%;
   }
 }
 
@@ -530,7 +530,7 @@
   width: auto;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .video {
     background-image: url('../img/sketches/vidFrameMobile.png');
     padding: 12vw 6vw 12vw 6vw;
@@ -543,7 +543,7 @@
   align-self: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .star {
     max-width: 12vw;
   }
