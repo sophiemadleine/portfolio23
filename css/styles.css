@@ -533,7 +533,8 @@
 @media (max-width: 600px) {
   .video {
     background-image: url('../img/sketches/vidFrameMobile.png');
-    padding: 12vw 6vw 12vw 6vw;
+    background-position: center 30%;
+    padding: 12vw 2vw 12vw 2vw;
   }
 }
 
